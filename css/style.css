@@ -715,8 +715,6 @@ img {
 		left: 203px;
 	}
 }
-
-
 .specials__br-tablet {
 	display: none;
 }
@@ -738,5 +736,136 @@ img {
 @media screen and (min-width: 768px) {
 	.specials__br-mabile {
 		display: none;
+	}
+}
+
+/* !стили для блока Почему именно мы?*/
+.benefits {
+	padding: 53px 15px 60px 15px;
+	text-align: center;
+}
+@media screen and (min-width: 768px) {
+	.benefits {
+		padding: 73px 0 60px;
+	}
+}
+.benefits__title {
+	width: 185px;
+	margin: 0 auto 20px auto;
+}
+@media screen and (min-width: 768px) {
+	.benefits__title {
+		width: 100%;
+	}
+}
+.benefits__text {
+	margin-bottom: 34px;
+}
+@media screen and (min-width: 768px) {
+	.benefits__text {
+		margin-bottom: 60px;
+	}
+}
+.benefits__list-block {
+	max-width: 320px;
+	margin: 0 auto;
+}
+.benefits__list {
+}
+.benefits__item {
+	width: 290px;
+	min-height: 248px;
+	margin-bottom: 30px;
+	padding-top: 40px;
+	background-color: #1F1C1D;
+	border: 15px solid #1F1C1D;
+}
+@media screen and (min-width: 768px) {
+	.benefits__item {
+		width: 360px;
+		min-height: 306px;
+		margin: 0 auto 43px auto;
+		padding-top: 50px;
+		border-top-width: 17px;
+		border-right-width: 20px;
+		border-bottom-width: 17px;
+		border-left-width: 20px;
+	}
+}
+.benefits__item:nth-child(2) {
+	padding-top: 47px;
+}
+.benefits__item:last-child {
+	margin-bottom: 0;
+}
+.benefits__item--current {
+	background-color: #A07B50;
+}
+.benefits__link {
+}
+.benefits__img {
+	margin-bottom: 7px;
+}
+@media screen and (min-width: 768px) {
+	.benefits__img {
+		margin-bottom: 25px;
+	}
+}
+.benefits__img--steth {
+	width: 80px;
+	height: 88px;
+}
+.benefits__img--hours {
+	width: 80px;
+	height: 71px;
+}
+.benefits__img--food {
+	width: 57px;
+	height: 88px;
+}
+@media screen and (min-width: 768px) {
+	.benefits__img--steth {
+		width: 98px;
+		height: 109px;
+	}
+	.benefits__img--hours {
+		width: 107px;
+		height: 97px;
+		margin-bottom: 41px;
+	}
+	.benefits__img--food {
+		width: 70px;
+		height: 110px;
+		margin-bottom: 30px;
+	}
+}
+.benefits__item-text {
+	font-size: 14px;
+	font-weight: 300;
+	color: white;
+}
+@media screen and (min-width: 768px) {
+	.benefits__item-text {
+		width: 233px;
+		margin: 0 auto;
+		font-size: 16px;
+	}
+}
+.benefits__item-text--hours {
+	width: 196px;
+	margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+	.benefits__item-text--hours {
+		width: 224px;
+	}
+}
+.benefits__item-text--food {
+	width: 164px;
+	margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+	.benefits__item-text--food {
+		width: 187px;
 	}
 }
