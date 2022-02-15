@@ -715,28 +715,23 @@ img {
 		left: 203px;
 	}
 }
-.specials__br-tablet {
+.br-tablet {
 	display: none;
 }
 @media screen and (min-width: 768px) {
-	.specials__br-tablet {
+	.br-tablet {
 		display: block;
 	}
 }
 @media screen and (min-width: 1366px) {
-	.specials__br-tablet {
+	.br-tablet {
 		display: none;
 	}
 }
 @media screen and (min-width: 768px) {
-	.specials__br-mobile {
+	.br-mobile {
 		display: none;
 }
-}
-@media screen and (min-width: 768px) {
-	.specials__br-mabile {
-		display: none;
-	}
 }
 
 /* !стили для блока Почему именно мы?*/
@@ -910,4 +905,64 @@ img {
 	.benefits__item-text--food {
 		width: 187px;
 	}
+}
+
+/* !стили для блока Об уходе за Мейн-Куном*/
+.care {
+	padding-top: 52px;
+	padding-bottom: 31px;
+	text-align: center;
+	background: url('../img/care-back_mobile.jpg') no-repeat center center;
+	background-size: cover;
+}
+@media (min-resolution: 2dppx) {
+	.care {
+		background-image: url('../img/care-back_mobile@2x.jpg');
+	}
+}
+.care__title {
+	margin-bottom: 32px;
+}
+.care__rule {
+	margin: 0 auto 30px auto;
+}
+.rule {
+	position: relative;
+	width: 290px;
+	padding: 20px 54px 20px 24px;
+	text-align: left;
+	background-color: rgba(0, 0, 0, 0.3);
+	border: 1px solid #A07B50;
+}
+.rule::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -1px;
+	width: 46px;
+	height: calc(100% + 1px);
+	background: #A07B50 url(../svg/care-string.svg) no-repeat center center;
+	background-size: 10px 20px;
+}
+.rule--food::after {
+	top: -1px;
+	height: calc(100% + 2px);
+}
+.rule__wrapper {
+}
+.rule__title {
+	margin-bottom: 10px;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1.16;
+	color: #A07B50;
+}
+.rule__text {
+	width: 211px;
+	font-size: 14px;
+	line-height: 1.4;
+	font-weight: 300;
+}
+.rule__text--claws {
+	width: 162px;
 }
