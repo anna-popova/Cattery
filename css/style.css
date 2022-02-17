@@ -947,6 +947,7 @@ img {
 	}
 }
 .care__rule {
+	display: block;
 	margin: 0 auto 30px auto;
 }
 @media screen and (min-width: 768px) {
@@ -971,10 +972,10 @@ img {
 .rule::after {
 	content: "";
 	position: absolute;
-	top: 0;
+	top: -1px;
 	right: -1px;
 	width: 46px;
-	height: calc(100% + 1px);
+	height: calc(100% + 2px);
 	background: #A07B50 url(../svg/care-string.svg) no-repeat center center;
 	background-size: 10px 20px;
 }
@@ -983,10 +984,6 @@ img {
 		width: 59px;
 		background-size: 12px 24px;
 	}
-}
-.rule--food::after {
-	top: -1px;
-	height: calc(100% + 2px);
 }
 @media screen and (min-width: 768px) {
 	.rule--food {
@@ -1017,6 +1014,7 @@ img {
 	font-size: 14px;
 	line-height: 1.4;
 	font-weight: 300;
+	color: white;
 }
 @media screen and (min-width: 768px) {
 	.rule__text {
