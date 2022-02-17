@@ -920,11 +920,39 @@ img {
 		background-image: url('../img/care-back_mobile@2x.jpg');
 	}
 }
+@media screen and (min-width: 768px) {
+	.care {
+		padding-top: 136px;
+		padding-bottom: 127px;
+		background: url('../img/care-back_tablet.jpg') no-repeat center center;
+		background-size: cover;
+	}
+}
+@media screen and (min-width: 768px) and (min-resolution: 2dppx) {
+	.care {
+		background-image: url('../img/care-back_tablet@2x.jpg');
+	}
+}
 .care__title {
 	margin-bottom: 32px;
 }
+@media screen and (min-width: 768px) {
+	.care__title {
+		margin-bottom: 39px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.care__rule-wrapper {
+		padding-left: 15px;
+	}
+}
 .care__rule {
 	margin: 0 auto 30px auto;
+}
+@media screen and (min-width: 768px) {
+	.care__rule {
+		margin-bottom: 23px;
+	}
 }
 .rule {
 	position: relative;
@@ -933,6 +961,12 @@ img {
 	text-align: left;
 	background-color: rgba(0, 0, 0, 0.3);
 	border: 1px solid #A07B50;
+}
+@media screen and (min-width: 768px) {
+	.rule {
+		width: 559px;
+		padding: 37px 58px 48px 50px;
+	}
 }
 .rule::after {
 	content: "";
@@ -944,9 +978,25 @@ img {
 	background: #A07B50 url(../svg/care-string.svg) no-repeat center center;
 	background-size: 10px 20px;
 }
+@media screen and (min-width: 768px) {
+	.rule::after {
+		width: 59px;
+		background-size: 12px 24px;
+	}
+}
 .rule--food::after {
 	top: -1px;
 	height: calc(100% + 2px);
+}
+@media screen and (min-width: 768px) {
+	.rule--food {
+		padding-bottom: 27px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.rule--eyes {
+		padding-bottom: 29px;
+	}
 }
 .rule__wrapper {
 }
@@ -957,12 +1007,28 @@ img {
 	line-height: 1.16;
 	color: #A07B50;
 }
+@media screen and (min-width: 768px) {
+	.rule__title {
+		font-size: 22px;
+	}
+}
 .rule__text {
 	width: 211px;
 	font-size: 14px;
 	line-height: 1.4;
 	font-weight: 300;
 }
+@media screen and (min-width: 768px) {
+	.rule__text {
+		width: 389px;
+		line-height: 1.6;
+	}
+}
 .rule__text--claws {
 	width: 162px;
+}
+@media screen and (min-width: 768px) {
+	.rule__text--claws {
+		width: 382px;
+	}
 }
