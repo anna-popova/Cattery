@@ -59,8 +59,8 @@
 			<p class="pets__text text">Все представители нашего питомника имеют ветеринарный паспорт с
 				отметками о прививках и документ с родословной</p>
 
-			<div class="pets__slider slider-wrapper">
-				<div class="slider">
+			<div class="pets__slider slider">
+				<div class="slider__wrapper">
 					<ul class="slider__list">
 						<li class="slider__item"><a class="slider__link slider__link--current" href="#">Коты</a></li>
 						<li class="slider__item"><a class="slider__link" href="#">Кошки</a></li>
@@ -206,6 +206,57 @@
 							но выбирать только вам</p>
 					</div>
 				</a>
+			</div>
+		</section>
+
+		<section class="team">
+			<h2 class="team__title section-title">Наша команда</h2>
+			<p class="team__text text">Все сотрудники нашего питомника дипломированые специалисты в области фелинологии и
+				ветеринарии</p>
+
+			<div class="team__slider slider">
+				<div class="team__wrapper slider__wrapper">
+					<picture class="team__img-block">
+						<source srcset="img/popov-pic_desktop.jpg" media="(min-width: 1366px)">
+						<source srcset="img/popov-pic_tablet.jpg" media="(min-width: 768px)">
+						<source srcset="img/popov-pic_mobile.jpg" media="(max-width: 767px)">
+						<img class="team-slider__img" src="img/popov-pic_desktop.jpg" alt="Фотография Сережи Попова">
+					</picture>
+
+					<div class="team__text-block team-text">
+						<p class="team-text__name">Серёжа Попов </p>
+						<p class="team-text__position">Основатель питомника</p>
+						<p class="team-text__comment">Наш питомник занимается разведением Мейн-Кунов на протяжении 15 лет.<br
+								class="br-mobile"> Мы
+							в ответе за каждого приобретенного вами питомца</p>
+
+						<ul class="social-list team-social">
+							<li class="social-list__item team-social__item">
+								<a class="social-list__link" href="https://facebook.com/">
+									<img class="social-list__img social-list__img--fb" src="svg/facebook.svg" alt="Твиттер"
+										width="7" height="13">
+								</a>
+							</li>
+							<li class="social-list__item team-social__item">
+								<a class="social-list__link" href="https://twitter.com/">
+									<img class="social-list__img social-list__img--twitter" src="svg/twitter.svg" alt="Твиттер"
+										width="17" height="12">
+								</a>
+							</li>
+							<li class="social-list__item team-social__item">
+								<a class="social-list__link" href="https://vk.com/">
+									<img class="social-list__img social-list__img--vk" src="svg/vk.svg" alt="Вконтакте"
+										width="15" height="10">
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<button class="slider__toggle slider__toggle--prev team__toggle team__toggle--prev" type="button"><img
+							class="slider__toggle-img" src="svg/slider-prev.svg"></button>
+					<button class="slider__toggle slider__toggle--next team__toggle team__toggle--next" type="button"><img
+							class="slider__toggle-img" src="svg/slider-next.svg"></button>
+				</div>
 			</div>
 		</section>
 

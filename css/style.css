@@ -7,7 +7,7 @@ html {
 	padding-inline-start: 0;
 }
 .pets, .specials {
-	background-color: #1F1C1D;
+	background-color: #1F1C1D; /*серый*/
 }
 body {
 	margin: 0;
@@ -287,18 +287,18 @@ img {
 		margin-bottom: 44px;
 	}
 }
-.slider {
+.slider__wrapper {
 	position: relative;
 	max-width: 320px;
 	margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
-	.slider {
+	.slider__wrapper {
 		max-width: 768px;
 	}
 }
 @media screen and (min-width: 1366px) {
-	.slider {
+	.slider__wrapper {
 		max-width: 1366px;
 	}
 }
@@ -830,8 +830,6 @@ img {
 .benefits__item--current {
 	background-color: #A07B50;
 }
-.benefits__link {
-}
 .benefits__img {
 	margin-bottom: 7px;
 }
@@ -1050,8 +1048,6 @@ img {
 		order: 4;
 	}
 }
-.rule__wrapper {
-}
 .rule__title {
 	margin-bottom: 10px;
 	font-size: 18px;
@@ -1084,4 +1080,74 @@ img {
 	.rule__text--claws {
 		width: 382px;
 	}
+}
+
+/* !стили для блока Наша команда*/
+.team {
+	padding-top: 53px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+.team__title {
+	margin-bottom: 22px;
+}
+.team__text {
+	width: 252px;
+	margin: 0 auto 99px auto;
+	line-height: 1.4;
+}
+.team__slider {
+}
+.team__wrapper {
+}
+.team__img-block {
+	position: absolute;
+	top: -64px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.team-slider__img {
+}
+.team__text-block {
+	width: 290px;
+	margin: 0 auto;
+	padding-top: 82px;
+	padding-bottom: 9px;
+	background-color: #1F1C1D;
+}
+.team-text {
+}
+.team-text__name {
+	font-size: 18px;
+	font-weight: 500;
+	color: #A07B50;
+}
+.team-text__position {
+	margin-bottom: 12px;
+	font-size: 14px;
+	color: #A07B50;
+}
+.team-text__comment {
+	margin-bottom: 21px;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.4;
+	color: rgba(255, 255, 255, 0.72);
+}
+.team-social {
+	display: flex;
+	justify-content: space-between;
+	width: 68px;
+	margin: 0 auto;
+}
+.team-social__item {
+
+}
+.team__toggle--prev {
+	top: -12px;
+	left: 72px;
+}
+.team__toggle--next {
+	top: -12px;
+	right: 72px;
 }
