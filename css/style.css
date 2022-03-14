@@ -6,7 +6,7 @@ html {
 	box-sizing: inherit;
 	padding-inline-start: 0;
 }
-.pets, .specials, .faq {
+.pets, .specials, .faq, .reviews {
 	background-color: #1F1C1D; /*серый*/
 }
 body {
@@ -1547,4 +1547,90 @@ img {
 	.br-desctop {
 		display: block;
 	}
+}
+
+/*!стили для блока Отзывы*/
+.reviews {
+	padding-top: 23px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+.reviews__title {
+	margin-bottom: 135px;
+}
+.review__wrapper {
+}
+.review {
+	position: relative;
+	width: 290px;
+	margin: 0 auto;
+	padding: 111px 24px 38px;
+	background-color: #181617;
+}
+.review__img-block {
+	position: absolute;
+	top: -83px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: block;
+	width: 242px;
+	height: 166px;
+}
+.review__img {
+}
+.review__img--twitter {
+}
+.review__img--vk {
+}
+.review__name {
+	margin-bottom: 13px;
+	font-size: 18px;
+	font-weight: 500;
+}
+.review__text {
+	margin-bottom: 23px;
+	font-size: 14px;
+	line-height: 1.4;
+	font-weight: 300;
+}
+.review__footer {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 178px;
+	margin: 0 auto;
+}
+.review__date {
+	margin-right: 39px;
+	font-size: 12px;
+	font-weight: 400;
+	color: #A07B50;
+}
+.review__link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 28px;
+	height: 28px;
+	margin-right: 14px;
+	border: 1px solid #A07B50;
+}
+.review__link:last-child {
+	margin-right: 0;
+}
+.review__toggle {
+	position: absolute;
+	width: 10px;
+	height: 20px;
+	padding: 0;
+	border: none;
+	background-color: transparent;
+}
+.review__toggle--prev {
+	top: -10px;
+	left: 0;
+}
+.review__toggle--next {
+	top: -10px;
+	right: 0;
 }
