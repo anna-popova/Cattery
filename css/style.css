@@ -1353,20 +1353,20 @@ img {
 	}
 }
 
-.team-slider__img {
+.team__img {
 	width: 126px;
 	height: 126px;
 }
 
 @media screen and (min-width: 768px) {
-	.team-slider__img {
+	.team__img {
 		width: 207px;
 		height: 208px;
 	}
 }
 
 @media screen and (min-width: 1366px) {
-	.team-slider__img {
+	.team__img {
 		width: 360px;
 		height: 356px;
 	}
