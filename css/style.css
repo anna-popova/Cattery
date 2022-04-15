@@ -2097,3 +2097,47 @@ img {
 }
 
 /*!стили для footer*/
+.page-footer {}
+
+.page-footer__inner-wrapper {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	padding-top: 34px;
+	padding-bottom: 40px;
+	font-size: 14px;
+}
+
+.page-footer__logo {}
+
+.page-footer__logo-svg {}
+
+.page-footer__social-list {
+	display: flex;
+	justify-content: space-between;
+	width: 94px;
+	margin-bottom: 18px;
+}
+
+.page-footer__social-item {}
+
+.page-footer__social-link {}
+
+.page-footer__social-link--fb {}
+
+.page-footer__social-link--tw {}
+
+.page-footer__social-link--vk {}
+
+.page-footer__adress {
+	order: 1;
+	margin-bottom: 9px;
+}
+
+.page-footer__tel {
+	margin-bottom: 20px;
+}
+
+.page-footer__tel a {
+	color: white;
+}
