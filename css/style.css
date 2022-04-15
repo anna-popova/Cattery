@@ -2097,7 +2097,6 @@ img {
 }
 
 /*!стили для footer*/
-.page-footer {}
 
 .page-footer__inner-wrapper {
 	display: flex;
@@ -2128,8 +2127,6 @@ img {
 	}
 }
 
-.page-footer__logo {}
-
 @media screen and (min-width: 768px) {
 	.page-footer__logo {
 		display: none;
@@ -2141,8 +2138,6 @@ img {
 		display: block;
 	}
 }
-
-.page-footer__logo-svg {}
 
 .page-footer__social-list {
 	display: flex;
@@ -2164,16 +2159,6 @@ img {
 		margin-right: 0;
 	}
 }
-
-.page-footer__social-item {}
-
-.page-footer__social-link {}
-
-.page-footer__social-link--fb {}
-
-.page-footer__social-link--tw {}
-
-.page-footer__social-link--vk {}
 
 .page-footer__adress {
 	order: 1;
