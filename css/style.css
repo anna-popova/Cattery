@@ -2119,6 +2119,15 @@ img {
 	}
 }
 
+@media screen and (min-width: 1366px) {
+	.page-footer__inner-wrapper {
+		width: 880px;
+		min-height: 168px;
+		padding: 0;
+		text-align: center;
+	}
+}
+
 .page-footer__logo {}
 
 @media screen and (min-width: 768px) {
@@ -2147,6 +2156,12 @@ img {
 	.page-footer__social-list {
 		width: 67px;
 		margin-bottom: 0;
+	}
+}
+
+@media screen and (min-width: 1366px) {
+	.page-footer__social-list {
+		margin-right: 0;
 	}
 }
 
